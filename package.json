@@ -1,0 +1,18 @@
+{
+  "name": "simple-nestjs-app",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.4.3",
+    "@nestjs/core": "^9.4.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
